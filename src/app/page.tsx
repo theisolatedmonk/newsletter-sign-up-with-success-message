@@ -14,9 +14,16 @@ export default function Home() {
          <List text={'Product discovery and building what matters '}/>
          <List text={'Measuring to ensure updates are a success '}/>
          <List text={'And much more!'}/>
+         <div className="flex flex-col">
+          <p className="text-"></p>
+          <input type="email" placeholder='email@company.com' />
+          <p className="font-bold">Subscribe to monthly newsletter</p>
+         </div>
         </div>
-        <Image src={Imaillustration} alt={''}/>
 
+
+
+        <Image src={Imaillustration} alt={''}/>
       </div>
     </main>
   )

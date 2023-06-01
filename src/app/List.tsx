@@ -8,7 +8,7 @@ type ListMsg = {
 
 export default function List(props:ListMsg) {
   return (
-    <div className="flex">
+    <div className="flex items-center gap-4">
     <Image src={iconList} alt={''}/>
     <p className="text-sm">{props.text}</p>
  

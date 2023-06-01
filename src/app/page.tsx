@@ -30,7 +30,7 @@ export default function Home() {
             <input  type="submit" value="Subscribe to monthly newsletter"  className="font-bold text-white text-center bg-[hsl(234,29%,20%)]  p-3 rounded-md hover:bg-[hsl(4,100%,67%)] "pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
               
             
-            type="submit" value="Subscribe to monthly newsletter" 
+            
             </div>
           </div>
         </div>
